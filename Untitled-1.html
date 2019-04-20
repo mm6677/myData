@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> 
+	<title>Bootstrap 实例 - 一个简单的网页</title>
+	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style>
+    .fakeimg {
+        height: 200px;
+         background: #aaa;
+    }
+	 .fakeimg1 {
+        height: 200px;
+		width:150px;
+         background: #aaa;
+    }
+	
+  </style>
+</head>
+<body>
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1>欢迎来到我的主页</h1>
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+     
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">主页</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>关于我</h2>
+      <h5>我的照片:</h5>
+      <div class="fakeimg1"><img src="../tou.jpg" class="img-rounded" width="180" height="200" ></div>
+     <br>
+      <p>关于我的介绍</p>
+      <table cellpadding="1" cellspacing="0" width="200px" height="200px">
+      <tr>
+        <td><span class="glyphicon glyphicon-user"></span></td>
+        <td>马亚南</td>
+      </tr>
+      <tr>
+        <td><span class="glyphicon glyphicon-phone"></span></td>
+        <td>12345678901</td>
+      </tr>
+      <tr>
+        <td><span class="glyphicon glyphicon-map-marker"></span></td>
+        <td>山东省济南市</td>
+      </tr>
+      <tr>
+        <td><span class="glyphicon glyphicon-envelope"></span></td>
+        <td>1111ss@126.com</td>
+      </tr>
+      </table>
+      <h3>链接</h3>
+      <p>学校网址</p>
+      <ul class="nav nav-pills nav-stacked">
+        <li><a href="http://www.sdnu.edu.cn/">山东师范大学官网</a></li>
+        <li><a href="http://www.elib.sdnu.edu.cn/">山东师范大学图书馆</a></li>
+        <li><a href="http://www.bkjy.sdnu.edu.cn/">山东师范大学教务处</a></li>
+      </ul>
+      <hr class="hidden-sm hidden-md hidden-lg">
+    </div>
+    <div class="col-sm-8">
+      <h2>关于我的学校</h2>
+      <h5>山东师范大学</h5>
+      <div class="fakeimg"><img src="../school.jpg" height="200" width="760"></div>
+      <p>简单介绍</p>
+      <p>山东师范大学坐落在历史文化名城济南。建校68年来，学校植根齐鲁文化沃土，汲取泉城人文灵韵，
+      秉承"尊贤尚功、奋发有为"的校园精神和"弘德明志、博学笃行"的校训，自觉传承创新齐鲁文化，
+      努力彰显教师教育特色，目前已发展成为一所学科专业齐全、学位体系完备、师资人才充沛、
+      社会声誉优良的综合性高等师范院校。</p>
+      <br>
+      <h2>精彩校园</h2>
+      <h5>校园风景</h5>
+      <div class="fakeimg">
+      <img src="../jing3.jpg" width="184" height="200">
+      <img src="../jing1.jpg" width="184" height="200">
+      <img src="../jing2.jpg" width="184" height="200">
+      <img src="../jing4.jpg" width="184" height="200">
+      </div>
+      <p>简单介绍</p>
+      <p>山东师范大学长清校区坐落于山东省济南市长清区，总占地2000余亩，建筑面积100万余平方米。校园依山傍水，空气清新，环境优美，形成了独特的大学氛围。</p>
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+ <p><img src="../bg.png" height="50" width="450"></p>
+</div>
+</body>
+</html>
